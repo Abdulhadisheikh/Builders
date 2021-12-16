@@ -1,0 +1,232 @@
+.section-teams {
+    position: relative;
+    width: 99.9%;
+    height: 80rem;
+    background-color: $color-darkgray;
+    top: 70rem;
+    &-image-1 {
+        position: absolute;
+        width: 20rem;
+        height: 25rem;
+        background-color: $color-white;
+        top: 6rem;
+        left: 21rem;
+        opacity: .8;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.2);
+            box-shadow: 0px 0px 4px 4px $color-white;
+            opacity: 1;
+        }
+    }
+    &-text-1 {
+        position: absolute;
+        width: 25rem;
+        height: 5rem;
+        left: 45rem;
+        top: 1rem;
+        font-size: 5rem;
+        color: $color-white;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            color: $color-red;
+        }
+    }
+    &-text-2 {
+        position: absolute;
+        width: 40rem;
+        height: 20rem;
+        left: 46rem;
+        top: 7rem;
+        color: $color-white;
+        font-size: 1.1rem;
+        transition: all 1s;
+        &:hover {
+            color: $color-orange;
+            transform: scale(1.1);
+        }
+    }
+    &-text-3 {
+        position: absolute;
+        width: 12rem;
+        height: 3.5rem;
+        top: 13.5rem;
+        left: 46rem;
+        border: 2px solid $color-white;
+        text-align: center;
+        padding: 1rem;
+        color: $color-white;
+        font-size: 1rem;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            background-color: $color-royalblue;
+        }
+    }
+    &-text-4 {
+        position: absolute;
+        width: 20rem;
+        height: 3rem;
+        top: 19rem;
+        left: 46rem;
+        color: $color-white;
+        font-size: 1.5rem;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            color: $color-red;
+        }
+    }
+    &-unknown {
+        position: absolute;
+        width: 99.9%;
+        height: 15rem;
+        top: 35rem;
+        background-color: $color-chocolate;
+    }
+    &-image-2 {
+        position: absolute;
+        width: 40rem;
+        height: 30rem;
+        top: 22rem;
+        left: 46rem;
+        opacity: .8;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1;
+            box-shadow: 0px 0px 4px 4px $color-white;
+        }
+    }
+    &-image-3 {
+        position: absolute;
+        width: 20rem;
+        height: 25rem;
+        top: 42rem;
+        left: 21rem;
+        opacity: .8;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1;
+            box-shadow: 0px 0px 4px 4px $color-white;
+        }
+    }
+    &-text-5 {
+        position: absolute;
+        width: 20rem;
+        height: 5rem;
+        top: 56rem;
+        left: 72rem;
+        font-size: 3rem;
+        color: $color-white;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            color: $color-gold;
+        }
+    }
+    &-image-5 {
+        position: absolute;
+        width: 22rem;
+        height: 12rem;
+        top: 55rem;
+        left: 46rem;
+        opacity: .8;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1;
+            box-shadow: 0px 0px 4px 4px $color-white;
+        }
+    }
+    &-unknown-2 {
+        position: absolute;
+        width: 17rem;
+        height: 3px;
+        background-color: $color-silver;
+        top: 61rem;
+        left: 70rem;
+        animation: movetoright 1s;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    &-icons-father {
+        position: absolute;
+        width: 17rem;
+        height: 5rem;
+        background-color: $color-white;
+        top: 62rem;
+        left: 70rem;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    &-icon-3 {
+        position: absolute;
+        font-size: 3rem;
+        top: 1rem;
+        left: 1.5rem;
+        background-color: $color-white;
+        &:hover {
+            transform: scale(1.1);
+            color: $color-royalblue;
+        }
+    }
+    &-icon-4 {
+        position: absolute;
+        font-size: 3rem;
+        top: 1rem;
+        left: 4.5rem;
+        background-color: $color-white;
+        &:hover {
+            transform: scale(1.1);
+            color: $color-lightskyblue;
+        }
+    }
+    &-icon-5 {
+        position: absolute;
+        font-size: 3rem;
+        top: 1rem;
+        left: 8.5rem;
+        background-color: $color-white;
+        &:hover {
+            transform: scale(1.1);
+            color: $color-orangered;
+        }
+    }
+    &-icon-6 {
+        position: absolute;
+        font-size: 3rem;
+        top: 1rem;
+        left: 12rem;
+        background-color: $color-white;
+        &:hover {
+            transform: scale(1.1);
+            color: $color-red;
+        }
+    }
+    &-unknown-3 {
+        position: absolute;
+        width: 17rem;
+        height: 3px;
+        background-color: $color-silver;
+        top: 68rem;
+        left: 70rem;
+        animation: movetoleft 1s;
+    }
+    &-text-6 {
+        position: absolute;
+        width: 17rem;
+        height: 7rem;
+        left: 70rem;
+        top: 70rem;
+        text-align: center;
+        color: $color-white;
+        font-size: 1rem;
+    }
+}

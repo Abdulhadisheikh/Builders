@@ -1,0 +1,194 @@
+.head {
+    position: relative;
+    width: 95%;
+    height: 5rem;
+    background-color: $color-silver;
+    left: 3rem;
+    top: 1rem;
+    &-image {
+        &-1 {
+            position: absolute;
+            width: 3.2rem;
+            height: 3rem;
+            background-color: $color-lightblue;
+            top: 1rem;
+            left: 50rem;
+        }
+        &-2 {
+            position: absolute;
+            width: 5rem;
+            height: 4rem;
+            top: 8px;
+            left: 54rem;
+        }
+        &-3 {
+            position: absolute;
+            width: 5rem;
+            height: 3rem;
+            top: 0px;
+            left: 58.3rem;
+        }
+        &-4 {
+            position: absolute;
+            width: 5rem;
+            height: 3rem;
+            top: 4px;
+            left: 62.5rem;
+        }
+        &-5 {
+            position: absolute;
+            width: 5rem;
+            height: 4rem;
+            top: 8px;
+            left: 67rem;
+        }
+    }
+    &_background {
+        position: absolute;
+        width: 99%;
+        height: 3rem;
+        top: 5.5rem;
+    }
+    &-image-6 {
+        position: absolute;
+        width: 10rem;
+        height: 3rem;
+        top: 1rem;
+        left: 12rem;
+    }
+    &-image-7 {
+        position: absolute;
+        width: 13rem;
+        top: 8px;
+        height: 3rem;
+        left: 95rem;
+        background-color: $color-black;
+    }
+}
+
+.header {
+    position: absolute;
+    width: 99%;
+    height: 90rem;
+    background-color: $color-darkgray;
+    top: 10.5rem;
+    clip-path: polygon(8% 0, 100% 0%, 88% 100%, 0% 100%);
+    &-heading-1 {
+        position: absolute;
+        width: 27rem;
+        height: 15rem;
+        top: 11rem;
+        left: 10rem;
+        font-size: 3rem;
+        font-style: bold;
+        color: $color-white;
+        animation: moveinleft 2s;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1);
+            color: $color-orange;
+        }
+    }
+    &-image-8 {
+        position: absolute;
+        width: 38rem;
+        height: 26rem;
+        top: 6rem;
+        left: 67rem;
+        background-color: $color-white;
+        transition: all 1s;
+        opacity: 0.6;
+        &:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            opacity: 1;
+            box-shadow: 0px 0px 4px 5px $color-white;
+        }
+    }
+    &-image-9 {
+        position: absolute;
+        width: 73rem;
+        left: 10rem;
+        height: 37rem;
+        background-color: $color-navajowhite;
+        top: 29rem;
+        transition: all 1s;
+        opacity: 0.6;
+        /* box-shadow: 1px 1px 1px 1px white; */
+        &:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            opacity: 1;
+            box-shadow: 0px 0px 4px 5px $color-white;
+        }
+    }
+    .header-box {
+        position: absolute;
+        width: 35rem;
+        height: 30rem;
+        background-color: $color-white;
+        top: 52.5rem;
+        left: 62rem;
+        animation: moveinright 2s;
+        border-top: 1rem solid $color-orange;
+        border-left: 1rem solid $color-orange;
+        clip-path: polygon(0 0, 94% 0, 85% 100%, 0 100%);
+        &_text-1 {
+            position: absolute;
+            width: 30rem;
+            height: 4rem;
+            left: 2rem;
+            top: 5px;
+            font-size: 5rem;
+            // text-align: center;
+        }
+        &_text-2 {
+            position: absolute;
+            width: 28rem;
+            height: 5rem;
+            left: 2rem;
+            top: 9rem;
+            color: $color-slategray;
+            font-size: 1.7rem;
+            color: $color-darkgray;
+        }
+        &_text-3 {
+            position: absolute;
+            width: 25rem;
+            height: 4rem;
+            top: 18rem;
+            left: 2rem;
+            font-size: 1.7rem;
+            color: $color-darkgray;
+        }
+        &_text-4 {
+            position: absolute;
+            width: 20rem;
+            height: 3rem;
+            background-color: $color-orange;
+            top: 22rem;
+            left: 2rem;
+            text-align: center;
+            padding-top: 1rem;
+            color: $color-white;
+            letter-spacing: 1px;
+            transition: all 2s;
+            font-size: 1rem;
+            &:hover {
+                transform: scale(1.1);
+                color: $color-black;
+            }
+        }
+    }
+    &-image-10 {
+        position: absolute;
+        height: 20rem;
+        width: 15rem;
+        top: 56rem;
+        left: 15rem;
+        transition: all 2s;
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+}

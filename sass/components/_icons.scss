@@ -1,0 +1,188 @@
+    .section-icons {
+        position: relative;
+        width: 99.9%;
+        height: 90rem;
+        top: 60rem;
+        &-text-1 {
+            position: absolute;
+            width: 65rem;
+            height: 12rem;
+            top: 11rem;
+            left: 15.5rem;
+            font-size: 3rem;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0px 0px 4px 4px $color-black;
+            }
+        }
+        &-parent-1 {
+            position: absolute;
+            width: 42rem;
+            height: 12rem;
+            top: 33rem;
+            left: 15rem;
+            background-color: $color-silver;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0px 0px 4px 4px $color-black;
+                background-color: $color-lightseagreen;
+            }
+        }
+        &-icon2 {
+            position: absolute;
+            font-size: 4rem;
+            top: 2.3rem;
+            left: 1rem;
+        }
+        &-text-2 {
+            position: absolute;
+            width: 35rem;
+            height: 10rem;
+            left: 6rem;
+            top: 2rem;
+            font-size: 1.5rem;
+        }
+        &-parent-2 {
+            position: absolute;
+            width: 42rem;
+            height: 12rem;
+            top: 51rem;
+            left: 15rem;
+            background-color: $color-silver;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0px 0px 4px 4px $color-black;
+                background-color: $color-goldenrod;
+            }
+        }
+        &-icon2 {
+            position: absolute;
+            font-size: 4rem;
+            top: 2.3rem;
+            left: 1rem;
+        }
+        &-text-3 {
+            position: absolute;
+            width: 35rem;
+            height: 10rem;
+            left: 6rem;
+            top: 2rem;
+            font-size: 1.5rem;
+        }
+        &-parent-3 {
+            position: absolute;
+            width: 42rem;
+            height: 12rem;
+            top: 69rem;
+            left: 15rem;
+            background-color: $color-silver;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0px 0px 4px 4px $color-black;
+                background-color: $color-lightskyblue;
+            }
+        }
+        &-icon2 {
+            position: absolute;
+            font-size: 4rem;
+            top: 2.3rem;
+            left: 1rem;
+        }
+        &-text-4 {
+            position: absolute;
+            width: 35rem;
+            height: 10rem;
+            left: 6rem;
+            top: 2rem;
+            font-size: 1.5rem;
+        }
+        &-parent-4 {
+            position: absolute;
+            width: 42rem;
+            height: 12rem;
+            top: 33rem;
+            left: 68rem;
+            background-color: $color-silver;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0px 0px 4px 4px $color-black;
+                background-color: $color-royalblue;
+            }
+        }
+        &-icon2 {
+            position: absolute;
+            font-size: 4rem;
+            top: 2.3rem;
+            left: 1rem;
+        }
+        &-text-5 {
+            position: absolute;
+            width: 35rem;
+            height: 10rem;
+            left: 6rem;
+            top: 2rem;
+            font-size: 1.5rem;
+        }
+        &-parent-5 {
+            position: absolute;
+            width: 42rem;
+            height: 12rem;
+            top: 51rem;
+            left: 68rem;
+            background-color: $color-silver;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0px 0px 4px 4px $color-black;
+                background-color: $color-gray;
+            }
+        }
+        &-icon2 {
+            position: absolute;
+            font-size: 4rem;
+            top: 2.3rem;
+            left: 1rem;
+            color: $color-white;
+        }
+        &-text-6 {
+            position: absolute;
+            width: 35rem;
+            height: 10rem;
+            left: 6rem;
+            top: 2rem;
+            font-size: 1.5rem;
+        }
+        &-parent-6 {
+            position: absolute;
+            width: 42rem;
+            height: 12rem;
+            top: 69rem;
+            left: 68rem;
+            background-color: $color-silver;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0px 0px 4px 4px $color-black;
+                background-color: $color-peachpuff;
+            }
+        }
+        &-icon2 {
+            position: absolute;
+            font-size: 4rem;
+            top: 2.3rem;
+            left: 1rem;
+        }
+        &-text-7 {
+            position: absolute;
+            width: 35rem;
+            height: 10rem;
+            left: 6rem;
+            top: 2rem;
+            font-size: 1.5rem;
+        }
+    }

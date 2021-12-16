@@ -1,0 +1,47 @@
+// @keyframes moveinleft {
+//     0% {
+//         transform: translateX(-20rem);
+//     }
+// }
+// @keyframes moveinright {
+//     0% {
+//         transform: translateX(18rem);
+//     }
+// }
+// hedaer animation ends// section-images start//@keyframes moveinright {
+@keyframes moveinright {
+    0% {
+        transform: translateX(20rem);
+    }
+}
+
+@keyframes moveinleft {
+    0% {
+        transform: translateX(-40rem);
+    }
+}
+
+// section-images ends section text starts //*
+@keyframes toptobottom {
+    0% {
+        transform: translate(0px);
+    }
+    50% {
+        transform: translateY(800px);
+    }
+}
+
+// section text ends section teams starts //
+@keyframes movetoright {
+    0% {
+        transform: translateX(35rem);
+        background-color: blue;
+    }
+}
+
+@keyframes movetoleft {
+    0% {
+        transform: translateX(-55rem);
+        background-color: red;
+    }
+}

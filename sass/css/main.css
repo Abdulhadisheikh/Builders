@@ -1,0 +1,1089 @@
+@keyframes moveinright {
+  0% {
+    transform: translateX(18rem); } }
+
+@keyframes moveinright {
+  0% {
+    transform: translateX(20rem); } }
+
+@keyframes moveinleft {
+  0% {
+    transform: translateX(-40rem); } }
+
+@keyframes toptobottom {
+  0% {
+    transform: translate(0px); }
+  50% {
+    transform: translateY(800px); } }
+
+@keyframes movetoright {
+  0% {
+    transform: translateX(35rem);
+    background-color: blue; } }
+
+@keyframes movetoleft {
+  0% {
+    transform: translateX(-55rem);
+    background-color: red; } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.section-building {
+  position: relative;
+  width: 99.9%;
+  height: 70rem;
+  background-color: darkblue;
+  top: 60rem; }
+  .section-building-text-1 {
+    position: absolute;
+    width: 32rem;
+    height: 18rem;
+    background-color: chocolate;
+    top: 45rem;
+    left: 10rem;
+    padding: 5rem;
+    transition: all 1s; }
+    .section-building-text-1:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 0px 4px 4px black;
+      z-index: 1; }
+  .section-building-text-2 {
+    position: absolute;
+    font-size: 5rem;
+    top: 6rem;
+    left: 6rem;
+    color: white;
+    font-weight: 750; }
+  .section-building-text-3 {
+    position: absolute;
+    width: 70rem;
+    height: 18rem;
+    background-color: white;
+    top: 45rem;
+    left: 42rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    padding: 5rem;
+    transition: all 1s; }
+    .section-building-text-3:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 0px 4px 4px black;
+      z-index: 1; }
+
+.section-future {
+  position: relative;
+  width: 99%;
+  height: 60rem;
+  background-color: #333333;
+  top: 100rem;
+  left: .5%; }
+  .section-future-text-1 {
+    position: absolute;
+    width: 35rem;
+    height: 6rem;
+    top: 8rem;
+    left: 12rem;
+    font-size: 3.5rem;
+    color: white; }
+  .section-future-text-2 {
+    position: absolute;
+    width: 33rem;
+    height: 10rem;
+    top: 15rem;
+    left: 12rem;
+    color: white;
+    font-size: 1.8rem; }
+  .section-future-image-1 {
+    position: absolute;
+    width: 49rem;
+    height: 28rem;
+    top: 27rem;
+    left: 10rem;
+    opacity: .6;
+    transition: all 1s; }
+    .section-future-image-1:hover {
+      transform: scale(1.1);
+      opacity: 1;
+      box-shadow: 0px 0px 2px 4px white;
+      transform: rotate(360deg); }
+  .section-future-border {
+    position: absolute;
+    width: 55rem;
+    height: 40rem;
+    left: 50rem;
+    border: 1rem solid chocolate;
+    border-top: none;
+    animation: moveinleft 2s; }
+  .section-future-image-2 {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    background-color: yellow;
+    top: 26rem;
+    left: 68rem;
+    opacity: .7;
+    transition: all 1s; }
+    .section-future-image-2:hover {
+      transform: scale(1.1);
+      opacity: 1;
+      box-shadow: 0px 0px 2px 4px white;
+      transform: rotate(360deg); }
+  .section-future-text-3 {
+    position: absolute;
+    width: 40rem;
+    height: 10rem;
+    top: 3rem;
+    left: 60rem;
+    font-size: 4rem;
+    color: white; }
+  .section-future-text-4 {
+    position: absolute;
+    width: 30rem;
+    height: 6rem;
+    top: 10rem;
+    left: 60rem;
+    color: white;
+    font-size: 1.2rem; }
+  .section-future-text-5 {
+    position: absolute;
+    width: 20rem;
+    height: 5rem;
+    top: 16rem;
+    left: 60rem;
+    font-size: 1.5rem;
+    color: white; }
+
+.section-footer {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  background-color: #333333;
+  top: 50rem; }
+  .section-footer-text-2 {
+    position: absolute;
+    width: 40rem;
+    height: 8rem;
+    top: 6rem;
+    left: 40.5rem;
+    text-align: center;
+    color: silver;
+    font-size: 1.6rem; }
+  .section-footer-text-3 {
+    position: absolute;
+    width: 40rem;
+    height: 4rem;
+    top: 16rem;
+    left: 44rem;
+    font-size: 1.5rem;
+    color: slategrey; }
+
+.section-form {
+  position: relative;
+  width: 100%;
+  height: 85rem;
+  background-color: white;
+  top: 70rem; }
+  .section-form-image-1 {
+    position: absolute;
+    width: 55rem;
+    height: 45rem;
+    background-color: violet;
+    transition: all 1s;
+    opacity: .5; }
+    .section-form-image-1:hover {
+      transform: scale(1.1);
+      opacity: 1; }
+  .section-form-text-1 {
+    position: absolute;
+    width: 25rem;
+    height: 5rem;
+    left: 61rem;
+    top: 10rem;
+    font-size: 3rem;
+    color: white; }
+    .section-form-text-1 input {
+      font-size: 1.5rem;
+      padding: 1.5rem 2rem;
+      border-radius: 2px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border: none;
+      border-bottom: 3px solid transparent;
+      width: 90%;
+      display: block; }
+  .section-form-image-2 {
+    position: absolute;
+    width: 56rem;
+    height: 45rem;
+    left: 59rem;
+    background-color: violet;
+    font-size: 3rem;
+    transition: all 1s; }
+  .section-form .d48 {
+    position: absolute;
+    width: 50rem;
+    height: 25rem;
+    background-color: white;
+    top: 15rem;
+    left: 61rem; }
+  .section-form-name {
+    height: 3rem;
+    width: 48rem;
+    position: absolute;
+    top: 15rem;
+    left: 5rem; }
+  .section-form-e-mail {
+    position: absolute;
+    width: 48rem;
+    height: 3rem;
+    top: 21rem;
+    left: 5rem; }
+  .section-form-message {
+    position: absolute;
+    width: 48rem;
+    height: 100px;
+    top: 27rem;
+    left: 5rem; }
+  .section-form-submit {
+    position: absolute;
+    width: 10rem;
+    height: 4rem;
+    top: 40rem;
+    left: 5rem; }
+  .section-form-text-4 {
+    position: absolute;
+    width: 30rem;
+    height: 10rem;
+    top: 46rem;
+    left: 62rem;
+    font-size: 4rem;
+    color: white; }
+  .section-form-icon-7 {
+    position: absolute;
+    font-size: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    top: 52rem;
+    left: 61rem;
+    border-radius: 5rem;
+    text-align: center;
+    color: white; }
+    .section-form-icon-7:hover {
+      transform: scale(1.1);
+      color: royalblue; }
+  .section-form-icon-8 {
+    position: absolute;
+    font-size: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    top: 52rem;
+    left: 66rem;
+    border-radius: 5rem;
+    text-align: center;
+    color: white; }
+    .section-form-icon-8:hover {
+      transform: scale(1.1);
+      color: lightskyblue; }
+  .section-form-icon-9 {
+    position: absolute;
+    font-size: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    top: 52rem;
+    left: 71rem;
+    border-radius: 5rem;
+    text-align: center;
+    color: white; }
+    .section-form-icon-9:hover {
+      transform: scale(1.1);
+      color: orangered; }
+  .section-form-icon-10 {
+    position: absolute;
+    font-size: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    top: 52rem;
+    left: 76rem;
+    color: white;
+    border-radius: 5rem;
+    text-align: center; }
+    .section-form-icon-10:hover {
+      transform: scale(1.1);
+      color: blue; }
+
+.section-icons {
+  position: relative;
+  width: 99.9%;
+  height: 90rem;
+  top: 60rem; }
+  .section-icons-text-1 {
+    position: absolute;
+    width: 65rem;
+    height: 12rem;
+    top: 11rem;
+    left: 15.5rem;
+    font-size: 3rem;
+    transition: all 1s; }
+    .section-icons-text-1:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px black; }
+  .section-icons-parent-1 {
+    position: absolute;
+    width: 42rem;
+    height: 12rem;
+    top: 33rem;
+    left: 15rem;
+    background-color: silver;
+    transition: all 1s; }
+    .section-icons-parent-1:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px black;
+      background-color: lightseagreen; }
+  .section-icons-icon2 {
+    position: absolute;
+    font-size: 4rem;
+    top: 2.3rem;
+    left: 1rem; }
+  .section-icons-text-2 {
+    position: absolute;
+    width: 35rem;
+    height: 10rem;
+    left: 6rem;
+    top: 2rem;
+    font-size: 1.5rem; }
+  .section-icons-parent-2 {
+    position: absolute;
+    width: 42rem;
+    height: 12rem;
+    top: 51rem;
+    left: 15rem;
+    background-color: silver;
+    transition: all 1s; }
+    .section-icons-parent-2:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px black;
+      background-color: goldenrod; }
+  .section-icons-icon2 {
+    position: absolute;
+    font-size: 4rem;
+    top: 2.3rem;
+    left: 1rem; }
+  .section-icons-text-3 {
+    position: absolute;
+    width: 35rem;
+    height: 10rem;
+    left: 6rem;
+    top: 2rem;
+    font-size: 1.5rem; }
+  .section-icons-parent-3 {
+    position: absolute;
+    width: 42rem;
+    height: 12rem;
+    top: 69rem;
+    left: 15rem;
+    background-color: silver;
+    transition: all 1s; }
+    .section-icons-parent-3:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px black;
+      background-color: lightskyblue; }
+  .section-icons-icon2 {
+    position: absolute;
+    font-size: 4rem;
+    top: 2.3rem;
+    left: 1rem; }
+  .section-icons-text-4 {
+    position: absolute;
+    width: 35rem;
+    height: 10rem;
+    left: 6rem;
+    top: 2rem;
+    font-size: 1.5rem; }
+  .section-icons-parent-4 {
+    position: absolute;
+    width: 42rem;
+    height: 12rem;
+    top: 33rem;
+    left: 68rem;
+    background-color: silver;
+    transition: all 1s; }
+    .section-icons-parent-4:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px black;
+      background-color: royalblue; }
+  .section-icons-icon2 {
+    position: absolute;
+    font-size: 4rem;
+    top: 2.3rem;
+    left: 1rem; }
+  .section-icons-text-5 {
+    position: absolute;
+    width: 35rem;
+    height: 10rem;
+    left: 6rem;
+    top: 2rem;
+    font-size: 1.5rem; }
+  .section-icons-parent-5 {
+    position: absolute;
+    width: 42rem;
+    height: 12rem;
+    top: 51rem;
+    left: 68rem;
+    background-color: silver;
+    transition: all 1s; }
+    .section-icons-parent-5:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px black;
+      background-color: gray; }
+  .section-icons-icon2 {
+    position: absolute;
+    font-size: 4rem;
+    top: 2.3rem;
+    left: 1rem;
+    color: white; }
+  .section-icons-text-6 {
+    position: absolute;
+    width: 35rem;
+    height: 10rem;
+    left: 6rem;
+    top: 2rem;
+    font-size: 1.5rem; }
+  .section-icons-parent-6 {
+    position: absolute;
+    width: 42rem;
+    height: 12rem;
+    top: 69rem;
+    left: 68rem;
+    background-color: silver;
+    transition: all 1s; }
+    .section-icons-parent-6:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px black;
+      background-color: peachpuff; }
+  .section-icons-icon2 {
+    position: absolute;
+    font-size: 4rem;
+    top: 2.3rem;
+    left: 1rem; }
+  .section-icons-text-7 {
+    position: absolute;
+    width: 35rem;
+    height: 10rem;
+    left: 6rem;
+    top: 2rem;
+    font-size: 1.5rem; }
+
+.section-image {
+  position: relative;
+  width: 99%;
+  height: 70rem;
+  top: 100rem; }
+  .section-image-1 {
+    position: absolute;
+    width: 20rem;
+    top: 8rem;
+    height: 20rem;
+    left: 17rem;
+    background-color: black;
+    transition: all 1s;
+    opacity: 0.8; }
+    .section-image-1:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px orange; }
+  .section-image-text-1 {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    color: white;
+    left: 1rem;
+    top: 2rem;
+    font-size: 3rem;
+    font: weight 90rem; }
+  .section-image-2 {
+    position: absolute;
+    width: 20rem;
+    top: 8rem;
+    height: 20rem;
+    left: 40rem;
+    transition: all 1s;
+    background-color: orangered;
+    opacity: 0.8; }
+    .section-image-2:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px orange; }
+  .section-image-3 {
+    position: absolute;
+    width: 20rem;
+    top: 8rem;
+    height: 20rem;
+    left: 63rem;
+    transition: all 1s;
+    background-color: orangered;
+    opacity: 0.8; }
+    .section-image-3:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px orange; }
+  .section-image-4 {
+    position: absolute;
+    width: 20rem;
+    top: 8rem;
+    height: 20rem;
+    left: 86rem;
+    transition: all 1s;
+    background-color: orangered;
+    opacity: 0.8; }
+    .section-image-4:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px orange; }
+  .section-image-5 {
+    position: absolute;
+    width: 20rem;
+    top: 31rem;
+    height: 20rem;
+    left: 17rem;
+    transition: all 1s;
+    background-color: orangered;
+    opacity: 0.8; }
+    .section-image-5:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px orange; }
+  .section-image-6 {
+    position: absolute;
+    width: 20rem;
+    top: 31rem;
+    height: 20rem;
+    left: 40rem;
+    transition: all 1s;
+    background-color: orangered;
+    opacity: 0.8; }
+    .section-image-6:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px orange; }
+  .section-image-7 {
+    position: absolute;
+    width: 20rem;
+    top: 31rem;
+    height: 20rem;
+    left: 63rem;
+    transition: all 1s;
+    background-color: orangered;
+    opacity: 0.8; }
+    .section-image-7:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px orange; }
+  .section-image-8 {
+    position: absolute;
+    width: 20rem;
+    top: 31rem;
+    height: 20rem;
+    left: 86rem;
+    background-color: orangered;
+    transition: all 1s;
+    opacity: .5; }
+    .section-image-8:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px orange; }
+  .section-image-icon-1 {
+    position: absolute;
+    font-size: 4rem;
+    left: 7.5rem;
+    top: 1rem;
+    color: white; }
+  .section-image-text-2 {
+    position: absolute;
+    width: 8rem;
+    height: 3rem;
+    top: 5.5rem;
+    left: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white; }
+  .section-image-text-3 {
+    position: absolute;
+    width: 16rem;
+    height: 3rem;
+    left: 1rem;
+    top: 13rem;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem; }
+  .section-image-background {
+    position: absolute;
+    width: 99.9%;
+    height: 6rem;
+    background-color: #333333;
+    top: 60rem;
+    left: .5%; }
+    .section-image-background-background-child {
+      position: absolute;
+      width: 55.3rem;
+      height: 1rem;
+      left: 50rem;
+      background-color: orange;
+      top: 5rem;
+      animation: moveinright 2s; }
+
+.section-teams {
+  position: relative;
+  width: 99.9%;
+  height: 80rem;
+  background-color: #333333;
+  top: 70rem; }
+  .section-teams-image-1 {
+    position: absolute;
+    width: 20rem;
+    height: 25rem;
+    background-color: white;
+    top: 6rem;
+    left: 21rem;
+    opacity: .8;
+    transition: all 1s; }
+    .section-teams-image-1:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px white;
+      opacity: 1; }
+  .section-teams-text-1 {
+    position: absolute;
+    width: 25rem;
+    height: 5rem;
+    left: 45rem;
+    top: 1rem;
+    font-size: 5rem;
+    color: white;
+    transition: all 1s; }
+    .section-teams-text-1:hover {
+      transform: scale(1.1);
+      color: red; }
+  .section-teams-text-2 {
+    position: absolute;
+    width: 40rem;
+    height: 20rem;
+    left: 46rem;
+    top: 7rem;
+    color: white;
+    font-size: 1.1rem;
+    transition: all 1s; }
+    .section-teams-text-2:hover {
+      color: orange;
+      transform: scale(1.1); }
+  .section-teams-text-3 {
+    position: absolute;
+    width: 12rem;
+    height: 3.5rem;
+    top: 13.5rem;
+    left: 46rem;
+    border: 2px solid white;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    transition: all 1s; }
+    .section-teams-text-3:hover {
+      transform: scale(1.1);
+      background-color: royalblue; }
+  .section-teams-text-4 {
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    top: 19rem;
+    left: 46rem;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 1s; }
+    .section-teams-text-4:hover {
+      transform: scale(1.1);
+      color: red; }
+  .section-teams-unknown {
+    position: absolute;
+    width: 99.9%;
+    height: 15rem;
+    top: 35rem;
+    background-color: chocolate; }
+  .section-teams-image-2 {
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    top: 22rem;
+    left: 46rem;
+    opacity: .8;
+    transition: all 1s; }
+    .section-teams-image-2:hover {
+      transform: scale(1.1);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 4px white; }
+  .section-teams-image-3 {
+    position: absolute;
+    width: 20rem;
+    height: 25rem;
+    top: 42rem;
+    left: 21rem;
+    opacity: .8;
+    transition: all 1s; }
+    .section-teams-image-3:hover {
+      transform: scale(1.1);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 4px white; }
+  .section-teams-text-5 {
+    position: absolute;
+    width: 20rem;
+    height: 5rem;
+    top: 56rem;
+    left: 72rem;
+    font-size: 3rem;
+    color: white;
+    transition: all 1s; }
+    .section-teams-text-5:hover {
+      transform: scale(1.1);
+      color: gold; }
+  .section-teams-image-5 {
+    position: absolute;
+    width: 22rem;
+    height: 12rem;
+    top: 55rem;
+    left: 46rem;
+    opacity: .8;
+    transition: all 1s; }
+    .section-teams-image-5:hover {
+      transform: scale(1.1);
+      opacity: 1;
+      box-shadow: 0px 0px 4px 4px white; }
+  .section-teams-unknown-2 {
+    position: absolute;
+    width: 17rem;
+    height: 3px;
+    background-color: silver;
+    top: 61rem;
+    left: 70rem;
+    animation: movetoright 1s;
+    transition: all 1s; }
+    .section-teams-unknown-2:hover {
+      transform: scale(1.1); }
+  .section-teams-icons-father {
+    position: absolute;
+    width: 17rem;
+    height: 5rem;
+    background-color: white;
+    top: 62rem;
+    left: 70rem;
+    transition: all 1s; }
+    .section-teams-icons-father:hover {
+      transform: scale(1.1); }
+  .section-teams-icon-3 {
+    position: absolute;
+    font-size: 3rem;
+    top: 1rem;
+    left: 1.5rem;
+    background-color: white; }
+    .section-teams-icon-3:hover {
+      transform: scale(1.1);
+      color: royalblue; }
+  .section-teams-icon-4 {
+    position: absolute;
+    font-size: 3rem;
+    top: 1rem;
+    left: 4.5rem;
+    background-color: white; }
+    .section-teams-icon-4:hover {
+      transform: scale(1.1);
+      color: lightskyblue; }
+  .section-teams-icon-5 {
+    position: absolute;
+    font-size: 3rem;
+    top: 1rem;
+    left: 8.5rem;
+    background-color: white; }
+    .section-teams-icon-5:hover {
+      transform: scale(1.1);
+      color: orangered; }
+  .section-teams-icon-6 {
+    position: absolute;
+    font-size: 3rem;
+    top: 1rem;
+    left: 12rem;
+    background-color: white; }
+    .section-teams-icon-6:hover {
+      transform: scale(1.1);
+      color: red; }
+  .section-teams-unknown-3 {
+    position: absolute;
+    width: 17rem;
+    height: 3px;
+    background-color: silver;
+    top: 68rem;
+    left: 70rem;
+    animation: movetoleft 1s; }
+  .section-teams-text-6 {
+    position: absolute;
+    width: 17rem;
+    height: 7rem;
+    left: 70rem;
+    top: 70rem;
+    text-align: center;
+    color: white;
+    font-size: 1rem; }
+
+.section-text {
+  position: relative;
+  width: 99.9%;
+  height: 60rem;
+  background-color: white;
+  border: 2px solid black;
+  top: 64rem; }
+  .section-text-text-1 {
+    position: absolute;
+    width: 10rem;
+    height: 5rem;
+    top: 23rem;
+    left: 5rem;
+    font-size: 2rem;
+    letter-spacing: 2px; }
+  .section-text-text-2 {
+    position: absolute;
+    width: 27rem;
+    height: 5px;
+    background-color: chocolate;
+    top: 28rem;
+    left: 5rem;
+    animation: toptobottom 2s; }
+  .section-text-text-3 {
+    position: absolute;
+    width: 30rem;
+    height: 10rem;
+    top: 33rem;
+    left: 5rem;
+    font-size: 1.5rem; }
+  .section-text-text-4 {
+    position: absolute;
+    width: 20rem;
+    height: 10rem;
+    top: -9rem;
+    left: 45rem;
+    font-size: 2rem;
+    letter-spacing: 2px; }
+  .section-text-text-5 {
+    position: absolute;
+    width: 30rem;
+    height: 20rem;
+    top: -4rem;
+    left: 45rem;
+    font-size: 1.5rem; }
+  .section-text-text-6 {
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    left: 84rem;
+    top: -9rem;
+    font-size: 1.5rem; }
+  .section-text-text-7 {
+    position: absolute;
+    width: 17rem;
+    height: 4rem;
+    background-color: chocolate;
+    top: 13rem;
+    left: 84rem;
+    transition: all 1s; }
+    .section-text-text-7:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 0px 4px 4px black; }
+  .section-text-text-button {
+    position: absolute;
+    width: 15rem;
+    height: 3rem;
+    top: 1.3rem;
+    left: 4.7rem;
+    color: white;
+    font-size: 1.2rem; }
+  .section-text .p13 {
+    position: absolute;
+    width: 58rem;
+    height: 15rem;
+    top: 4rem;
+    left: 5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    transition: all 1s; }
+    .section-text .p13:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 0px 4px 4px gray; }
+
+.head {
+  position: relative;
+  width: 95%;
+  height: 5rem;
+  background-color: silver;
+  left: 3rem;
+  top: 1rem; }
+  .head-image-1 {
+    position: absolute;
+    width: 3.2rem;
+    height: 3rem;
+    background-color: lightblue;
+    top: 1rem;
+    left: 50rem; }
+  .head-image-2 {
+    position: absolute;
+    width: 5rem;
+    height: 4rem;
+    top: 8px;
+    left: 54rem; }
+  .head-image-3 {
+    position: absolute;
+    width: 5rem;
+    height: 3rem;
+    top: 0px;
+    left: 58.3rem; }
+  .head-image-4 {
+    position: absolute;
+    width: 5rem;
+    height: 3rem;
+    top: 4px;
+    left: 62.5rem; }
+  .head-image-5 {
+    position: absolute;
+    width: 5rem;
+    height: 4rem;
+    top: 8px;
+    left: 67rem; }
+  .head_background {
+    position: absolute;
+    width: 99%;
+    height: 3rem;
+    top: 5.5rem; }
+  .head-image-6 {
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    top: 1rem;
+    left: 12rem; }
+  .head-image-7 {
+    position: absolute;
+    width: 13rem;
+    top: 8px;
+    height: 3rem;
+    left: 95rem;
+    background-color: black; }
+
+.header {
+  position: absolute;
+  width: 99%;
+  height: 90rem;
+  background-color: #333333;
+  top: 10.5rem;
+  clip-path: polygon(8% 0, 100% 0%, 88% 100%, 0% 100%); }
+  .header-heading-1 {
+    position: absolute;
+    width: 27rem;
+    height: 15rem;
+    top: 11rem;
+    left: 10rem;
+    font-size: 3rem;
+    font-style: bold;
+    color: white;
+    animation: moveinleft 2s;
+    transition: all 1s; }
+    .header-heading-1:hover {
+      transform: scale(1);
+      color: orange; }
+  .header-image-8 {
+    position: absolute;
+    width: 38rem;
+    height: 26rem;
+    top: 6rem;
+    left: 67rem;
+    background-color: white;
+    transition: all 1s;
+    opacity: 0.6; }
+    .header-image-8:hover {
+      transform: scale(1.1);
+      z-index: 1;
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px white; }
+  .header-image-9 {
+    position: absolute;
+    width: 73rem;
+    left: 10rem;
+    height: 37rem;
+    background-color: navajowhite;
+    top: 29rem;
+    transition: all 1s;
+    opacity: 0.6;
+    /* box-shadow: 1px 1px 1px 1px white; */ }
+    .header-image-9:hover {
+      transform: scale(1.1);
+      z-index: 1;
+      opacity: 1;
+      box-shadow: 0px 0px 4px 5px white; }
+  .header .header-box {
+    position: absolute;
+    width: 35rem;
+    height: 30rem;
+    background-color: white;
+    top: 52.5rem;
+    left: 62rem;
+    animation: moveinright 2s;
+    border-top: 1rem solid orange;
+    border-left: 1rem solid orange;
+    clip-path: polygon(0 0, 94% 0, 85% 100%, 0 100%); }
+    .header .header-box_text-1 {
+      position: absolute;
+      width: 30rem;
+      height: 4rem;
+      left: 2rem;
+      top: 5px;
+      font-size: 5rem; }
+    .header .header-box_text-2 {
+      position: absolute;
+      width: 28rem;
+      height: 5rem;
+      left: 2rem;
+      top: 9rem;
+      color: slategrey;
+      font-size: 1.7rem;
+      color: #333333; }
+    .header .header-box_text-3 {
+      position: absolute;
+      width: 25rem;
+      height: 4rem;
+      top: 18rem;
+      left: 2rem;
+      font-size: 1.7rem;
+      color: #333333; }
+    .header .header-box_text-4 {
+      position: absolute;
+      width: 20rem;
+      height: 3rem;
+      background-color: orange;
+      top: 22rem;
+      left: 2rem;
+      text-align: center;
+      padding-top: 1rem;
+      color: white;
+      letter-spacing: 1px;
+      transition: all 2s;
+      font-size: 1rem; }
+      .header .header-box_text-4:hover {
+        transform: scale(1.1);
+        color: black; }
+  .header-image-10 {
+    position: absolute;
+    height: 20rem;
+    width: 15rem;
+    top: 56rem;
+    left: 15rem;
+    transition: all 2s; }
+    .header-image-10:hover {
+      transform: rotate(360deg); }

@@ -1,0 +1,93 @@
+.section-future {
+    position: relative;
+    width: 99%;
+    height: 60rem;
+    background-color: $color-darkgray;
+    top: 100rem;
+    left: .5%;
+    &-text-1 {
+        position: absolute;
+        width: 35rem;
+        height: 6rem;
+        top: 8rem;
+        left: 12rem;
+        font-size: 3.5rem;
+        color: $color-white;
+    }
+    &-text-2 {
+        position: absolute;
+        width: 33rem;
+        height: 10rem;
+        top: 15rem;
+        left: 12rem;
+        color: $color-white;
+        font-size: 1.8rem;
+    }
+    &-image-1 {
+        position: absolute;
+        width: 49rem;
+        height: 28rem;
+        top: 27rem;
+        left: 10rem;
+        opacity: .6;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1;
+            box-shadow: 0px 0px 2px 4px $color-white;
+            transform: rotate(360deg);
+        }
+    }
+    &-border {
+        position: absolute;
+        width: 55rem;
+        height: 40rem;
+        left: 50rem;
+        border: 1rem solid $color-chocolate;
+        border-top: none;
+        animation: moveinleft 2s
+    }
+    &-image-2 {
+        position: absolute;
+        width: 25rem;
+        height: 25rem;
+        background-color: $color-yellow;
+        top: 26rem;
+        left: 68rem;
+        opacity: .7;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1;
+            box-shadow: 0px 0px 2px 4px $color-white;
+            transform: rotate(360deg);
+        }
+    }
+    &-text-3 {
+        position: absolute;
+        width: 40rem;
+        height: 10rem;
+        top: 3rem;
+        left: 60rem;
+        font-size: 4rem;
+        color: $color-white;
+    }
+    &-text-4 {
+        position: absolute;
+        width: 30rem;
+        height: 6rem;
+        top: 10rem;
+        left: 60rem;
+        color: $color-white;
+        font-size: 1.2rem;
+    }
+    &-text-5 {
+        position: absolute;
+        width: 20rem;
+        height: 5rem;
+        top: 16rem;
+        left: 60rem;
+        font-size: 1.5rem;
+        color: $color-white;
+    }
+}

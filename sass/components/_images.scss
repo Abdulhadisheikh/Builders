@@ -1,0 +1,180 @@
+                .section-image {
+                    position: relative;
+                    width: 99%;
+                    height: 70rem;
+                    top: 100rem;
+                    &-1 {
+                        position: absolute;
+                        width: 20rem;
+                        top: 8rem;
+                        height: 20rem;
+                        left: 17rem;
+                        background-color: $color-black;
+                        transition: all 1s;
+                        opacity: 0.8;
+                        &:hover {
+                            transform: scale(1.2);
+                            opacity: 1;
+                            box-shadow: 0px 0px 4px 5px $color-orange;
+                        }
+                    }
+                    &-text-1 {
+                        position: absolute;
+                        width: 5rem;
+                        height: 5rem;
+                        color: $color-white;
+                        left: 1rem;
+                        top: 2rem;
+                        font-size: 3rem;
+                        font: weight 90rem;
+                    }
+                    &-2 {
+                        position: absolute;
+                        width: 20rem;
+                        top: 8rem;
+                        height: 20rem;
+                        left: 40rem;
+                        transition: all 1s;
+                        background-color: $color-orangered;
+                        opacity: 0.8;
+                        &:hover {
+                            transform: scale(1.2);
+                            opacity: 1;
+                            box-shadow: 0px 0px 4px 5px $color-orange;
+                        }
+                    }
+                    &-3 {
+                        position: absolute;
+                        width: 20rem;
+                        top: 8rem;
+                        height: 20rem;
+                        left: 63rem;
+                        transition: all 1s;
+                        background-color: $color-orangered;
+                        opacity: 0.8;
+                        &:hover {
+                            transform: scale(1.2);
+                            opacity: 1;
+                            box-shadow: 0px 0px 4px 5px $color-orange;
+                        }
+                    }
+                    &-4 {
+                        position: absolute;
+                        width: 20rem;
+                        top: 8rem;
+                        height: 20rem;
+                        left: 86rem;
+                        transition: all 1s;
+                        background-color: $color-orangered;
+                        opacity: 0.8;
+                        &:hover {
+                            transform: scale(1.2);
+                            opacity: 1;
+                            box-shadow: 0px 0px 4px 5px $color-orange;
+                        }
+                    }
+                    &-5 {
+                        position: absolute;
+                        width: 20rem;
+                        top: 31rem;
+                        height: 20rem;
+                        left: 17rem;
+                        transition: all 1s;
+                        background-color: $color-orangered;
+                        opacity: 0.8;
+                        &:hover {
+                            transform: scale(1.2);
+                            opacity: 1;
+                            box-shadow: 0px 0px 4px 5px $color-orange;
+                        }
+                    }
+                    &-6 {
+                        position: absolute;
+                        width: 20rem;
+                        top: 31rem;
+                        height: 20rem;
+                        left: 40rem;
+                        transition: all 1s;
+                        background-color: $color-orangered;
+                        opacity: 0.8;
+                        &:hover {
+                            transform: scale(1.2);
+                            opacity: 1;
+                            box-shadow: 0px 0px 4px 5px $color-orange;
+                        }
+                    }
+                    &-7 {
+                        position: absolute;
+                        width: 20rem;
+                        top: 31rem;
+                        height: 20rem;
+                        left: 63rem;
+                        transition: all 1s;
+                        background-color: $color-orangered;
+                        opacity: 0.8;
+                        &:hover {
+                            transform: scale(1.2);
+                            opacity: 1;
+                            box-shadow: 0px 0px 4px 5px $color-orange;
+                        }
+                    }
+                    &-8 {
+                        position: absolute;
+                        width: 20rem;
+                        top: 31rem;
+                        height: 20rem;
+                        left: 86rem;
+                        background-color: $color-orangered;
+                        transition: all 1s;
+                        opacity: .5;
+                        &:hover {
+                            transform: scale(1.2);
+                            opacity: 1;
+                            box-shadow: 0px 0px 4px 5px$color-orange;
+                        }
+                    }
+                    &-icon-1 {
+                        position: absolute;
+                        font-size: 4rem;
+                        left: 7.5rem;
+                        top: 1rem;
+                        color: $color-white;
+                    }
+                    &-text-2 {
+                        position: absolute;
+                        width: 8rem;
+                        height: 3rem;
+                        top: 5.5rem;
+                        left: 2rem;
+                        font-size: 3rem;
+                        text-align: center;
+                        color: $color-white;
+                    }
+                    &-text-3 {
+                        position: absolute;
+                        width: 16rem;
+                        height: 3rem;
+                        left: 1rem;
+                        top: 13rem;
+                        text-align: center;
+                        color: $color-white;
+                        font-size: 1.2rem;
+                    }
+                    &-background {
+                        position: absolute;
+                        width: 99.9%;
+                        height: 6rem;
+                        background-color: $color-darkgray;
+                        top: 60rem;
+                        left: .5%;
+                        &-background-child {
+                            position: absolute;
+                            width: 55.3rem;
+                            height: 1rem;
+                            left: 50rem;
+                            background-color: $color-orange;
+                            top: 5rem;
+                            animation: moveinright 2s;
+                        }
+                    }
+                }
